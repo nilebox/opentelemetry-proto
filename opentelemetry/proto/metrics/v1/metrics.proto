@@ -22,7 +22,7 @@ import "opentelemetry/proto/resource/v1/resource.proto";
 option java_multiple_files = true;
 option java_package = "io.opentelemetry.proto.metrics.v1";
 option java_outer_classname = "MetricsProto";
-option go_package = "github.com/open-telemetry/opentelemetry-proto/gen/go/metrics/v1";
+option go_package = "github.com/nilebox/opentelemetry-proto-go-experimental/gen/metrics/v1";
 
 // A collection of metrics from a Resource.
 message ResourceMetrics {
